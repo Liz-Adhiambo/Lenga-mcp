@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lenga-mcp"
+version = "0.1.0"
+description = "Context-Bridge: Local-first MCP server for grounded AI access to regional African documents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Elizabeth Onyango", email = "elizabeth.onyango@mindit.io" }
+]
+
+dependencies = [
+    "fastmcp>=2.0.0",
+    "pypdf>=4.0.0",
+]
+
+[project.scripts]
+lenga-mcp = "lenga_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["lenga_mcp"]

@@ -1,0 +1,56 @@
+{
+  "registry": {
+    "plot_001": {
+      "owner": "Chepkemoi Rotich",
+      "tenure_type": "customary",
+      "size_ha": 2.4,
+      "county": "Uasin Gishu",
+      "registered": false,
+      "notes": "Inherited land, no title deed, community-recognised ownership under Nandi customary law"
+    },
+    "plot_002": {
+      "owner": "James Mwangi Kariuki",
+      "tenure_type": "freehold",
+      "size_ha": 0.8,
+      "county": "Kiambu",
+      "registered": true,
+      "title_number": "KIAMBU/TOWNSHIP/4521",
+      "notes": "Formal title deed registered with National Land Commission"
+    },
+    "plot_003": {
+      "owner": "Fatuma Hassan",
+      "tenure_type": "leasehold",
+      "size_ha": 1.2,
+      "county": "Mombasa",
+      "registered": true,
+      "lease_expiry": "2045-12-31",
+      "notes": "99-year lease from County Government of Mombasa; Arabic land records also exist"
+    },
+    "plot_004": {
+      "owner": "Arusei Clan Council",
+      "tenure_type": "communal",
+      "size_ha": 450.0,
+      "county": "Kajiado",
+      "registered": false,
+      "notes": "Maasai community land; Group Ranch registration pending under Community Land Act 2016"
+    },
+    "plot_005": {
+      "owner": "Asha Waweru",
+      "tenure_type": "freehold",
+      "size_ha": 0.05,
+      "county": "Nairobi",
+      "registered": true,
+      "title_number": "NAIROBI/BLOCK 71/435",
+      "notes": "Urban plot in informal settlement, title formalised under Nairobi slum upgrading programme"
+    }
+  },
+  "summary": {
+    "total_plots": 5,
+    "registered_count": 3,
+    "unregistered_count": 2,
+    "tenure_types": ["customary", "freehold", "leasehold", "communal"],
+    "data_source": "Lenga Land Registry Demo Dataset",
+    "last_updated": "2024-01-01",
+    "legal_framework": "Land Registration Act 2012, Community Land Act 2016, Trust Land Act Cap 288"
+  }
+}

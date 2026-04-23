@@ -1,0 +1,11 @@
+transaction_id,date,type,amount_ksh,sender_name,receiver_name,channel,county,notes
+TXN001,2024-01-15,send_money,1500.00,Wanjiku Kamau,Otieno Achieng,M-Pesa,Nairobi,School fees contribution to family member
+TXN002,2024-01-15,paybill,3200.00,Muthoni Njoroge,KPLC Token,M-Pesa,Nakuru,Electricity token purchase
+TXN003,2024-01-16,buy_goods,850.00,Kipchoge Rotich,Mama Pima Kiosk,M-Pesa,Uasin Gishu,Grocery purchase at informal vendor
+TXN004,2024-01-16,send_money,5000.00,Aisha Hassan,Fatuma Omar,M-Pesa,Mombasa,Harambee contribution (community fundraiser)
+TXN005,2024-01-17,withdraw,2000.00,John Odhiambo,M-Pesa Agent 00234,M-Pesa,Kisumu,Cash withdrawal at agent outlet
+TXN006,2024-01-17,paybill,1800.00,Grace Wambui,Safaricom Postpaid,M-Pesa,Nairobi,Monthly airtime bill
+TXN007,2024-01-18,send_money,7500.00,Samuel Mutua,Christine Ndunge,M-Pesa,Machakos,Remittance to rural family (chama savings)
+TXN008,2024-01-18,buy_goods,450.00,Amina Osman,Mchezaji Butchery,M-Pesa,Garissa,Meat purchase at local butchery
+TXN009,2024-01-19,paybill,500.00,Peter Njoroge,Nairobi Water,M-Pesa,Nairobi,Water bill payment
+TXN010,2024-01-19,send_money,3000.00,Tabitha Atieno,Chama Savings Account,M-Pesa,Kisii,Monthly merry-go-round contribution
